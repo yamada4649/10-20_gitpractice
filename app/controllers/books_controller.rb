@@ -10,6 +10,9 @@ class BooksController < ApplicationController
     @book = Book.find(params[:id])
     @comment = BookComment.new
   end
+  def aaaaa
+    
+  end
 
   def edit
     @book = Book.find(params[:id])

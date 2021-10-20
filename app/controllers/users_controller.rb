@@ -7,6 +7,9 @@ class UsersController < ApplicationController
     @books = @user.books
     @book = Book.new
   end
+  def
+  @ppp = aawefwaefa
+  end
 
   def index
     @users = User.all
