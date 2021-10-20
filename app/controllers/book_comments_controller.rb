@@ -10,6 +10,9 @@ class BookCommentsController < ApplicationController
   def iiii
    @aaaa = '1'
   end
+  def kkk
+    @kkk = 2
+  end
 
   def destroy
     @comment = BookComment.find(params[:id])
